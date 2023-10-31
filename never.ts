@@ -1,0 +1,1 @@
+let x: never = true; // Error: Type 'boolean' is not assignable to type 'never'.
