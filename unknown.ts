@@ -2,7 +2,7 @@ let w: unknown = 1;
 w = "string"; // no error
 w = {
   Method1: () => {
-    console.log("I think therefore I am");
+    console.log("ome string");
   }
 } as { Method1: () => void}
 // How can we avoid the error for the code commented out below when we don't know the type?
